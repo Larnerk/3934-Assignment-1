@@ -1,0 +1,32 @@
+#DivGrid{
+   display: grid;
+   grid-template-columns: auto auto;
+   grid-template-areas:
+        "DivImage   DivRecipe"
+        "DivLink    DivIngredients"
+        ".          DivInstructions";
+}
+#DivImage{
+    grid-area: DivImage;
+}
+
+#DivLink{
+    grid-area: DivLink;
+}
+
+#DivRecipe{
+    grid-area: DivRecipe;
+}
+
+#DivIngredients{
+    grid-area: DivIngredients;
+}
+
+#DivInstructions{
+    grid-area: DivInstructions;
+}
+
+img {
+    width: 40%;
+}
+
