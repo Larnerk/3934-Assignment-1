@@ -1,4 +1,10 @@
 a{
     display: block;
     text-align: center;
+    color: rgb(23, 128, 2);
+    background-color: rgb(228, 218, 204);
+}
+
+li:hover{
+    background-color: rgb(131, 216, 166);
 }

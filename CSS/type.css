@@ -1,0 +1,19 @@
+#Instructions{
+    font-family: 'Balsamiq Sans', cursive;
+    line-height: 160%;
+}
+
+#Recipe, #Ingredients{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 160%;
+}
+
+#Image{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h2{
+    font-size: 180%;
+    line-height: 160%;
+    font-weight: bolder;
+}
