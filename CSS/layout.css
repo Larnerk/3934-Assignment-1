@@ -1,17 +1,16 @@
 #DivGrid{
    display: grid;
-   grid-template-columns: auto auto;
+   gap: 6px;
+   grid-template-columns: 35% 65%;
    grid-template-areas:
         "DivImage   DivRecipe"
-        "DivLink    DivIngredients"
-        ".          DivInstructions";
+        "DivImage   DivIngredients"
+        "DivImage   DivInstructions";
+        margin-top: 1%;
+        padding: 2%;
 }
 #DivImage{
     grid-area: DivImage;
-}
-
-#DivLink{
-    grid-area: DivLink;
 }
 
 #DivRecipe{
@@ -27,6 +26,18 @@
 }
 
 img {
-    width: 40%;
+    width: 80%;
 }
 
+@media (min-width:1025px){
+    #DivGrid{
+        gap: 6px;
+        grid-template-columns: 35% 65%;
+        grid-template-areas:
+             "DivImage  DivRecipe"
+             "DivImage  DivIngredients"
+             "DivImage  DivInstructions";
+             margin-top: 1%;
+             padding: 2%;
+     } 
+}
