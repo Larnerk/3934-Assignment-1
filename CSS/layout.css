@@ -1,28 +1,28 @@
-#DivGrid{
+main{
    display: grid;
    gap: 6px;
    grid-template-columns: 35% 65%;
    grid-template-areas:
-        "DivImage   DivRecipe"
-        "DivImage   DivIngredients"
-        "DivImage   DivInstructions";
+        "Image   Recipe"
+        "Image   Ingredients"
+        "Image   Instructions";
         margin-top: 1%;
         padding: 2%;
 }
-#DivImage{
-    grid-area: DivImage;
+#Image{
+    grid-area: Image;
 }
 
-#DivRecipe{
-    grid-area: DivRecipe;
+#Recipe{
+    grid-area: Recipe;
 }
 
-#DivIngredients{
-    grid-area: DivIngredients;
+#Ingredients{
+    grid-area: Ingredients;
 }
 
-#DivInstructions{
-    grid-area: DivInstructions;
+#Instructions{
+    grid-area: Instructions;
 }
 
 img {
@@ -30,14 +30,11 @@ img {
 }
 
 @media (min-width:1025px){
-    #DivGrid{
-        gap: 6px;
-        grid-template-columns: 35% 65%;
+    main{
+
         grid-template-areas:
-             "DivImage  DivRecipe"
-             "DivImage  DivIngredients"
-             "DivImage  DivInstructions";
-             margin-top: 1%;
-             padding: 2%;
+             "Image  Recipe"
+             "Image  Ingredients"
+             "Image  Instructions";
      } 
 }
